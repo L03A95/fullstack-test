@@ -12,7 +12,7 @@ module.exports = (sequelize) => {
             allowNull: false
           },
           password: {
-            type: DataTypes.INTEGER,
+            type: DataTypes.STRING,
             allowNull: false
           }
     },{timestamps: false});
