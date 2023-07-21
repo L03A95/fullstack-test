@@ -1,0 +1,17 @@
+.form_input {
+    background-color: #1d1d1c;
+    margin: 32px 16px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 18vw;
+}
+
+.form_container {
+    display: flex;
+    background-color: #3d3d3c;
+    justify-content: center;
+    width: max-content;
+    padding: 24px 12px;
+    flex-direction: column;
+    border-radius: 8px;
+}
