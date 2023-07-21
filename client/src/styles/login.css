@@ -1,17 +1,28 @@
 .form_input {
-    background-color: #1d1d1c;
+    background-color: #1c1c2f;
     margin: 32px 16px;
     padding: 10px;
     border-radius: 8px;
     width: 18vw;
+    border: none;
+    color: #dcdcff;
 }
 
 .form_container {
     display: flex;
-    background-color: #3d3d3c;
+    background-color: #2d2d3f;
     justify-content: center;
     width: max-content;
     padding: 24px 12px;
     flex-direction: column;
     border-radius: 8px;
+}
+
+.recomendation {
+    color: #dcdcff;
+}
+
+.recomendation_link {
+    text-decoration: none;
+    color: #dcdcff;
 }

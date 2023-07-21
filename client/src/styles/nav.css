@@ -1,0 +1,7 @@
+.nav_wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: #251d2f;
+    height: 8vh;
+    color: #dcdcff;
+}
