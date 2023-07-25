@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../styles/nav.css'
 
 export default function Nav () {
@@ -5,14 +6,14 @@ export default function Nav () {
 
     return (
         <nav className="nav_wrapper">
-            <h3>Logo</h3>
+            <Link to={'/'}><h3>Logo</h3></Link>
             <div>
-                <p>Profile</p>
-                <p>Messages</p>
+                <Link to={'/profile'}><p>Profile</p></Link>
+                <Link to={'/messages'}><p>Messages</p></Link>    
             </div>
             <div>
-                <p>Login</p>
-                <p>Sign in</p>   
+                <Link to={'/login'}><p>Login</p></Link>
+                <Link to={'/signin'}><p>Sign in</p></Link>
             </div>
             
         </nav>

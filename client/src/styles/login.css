@@ -25,7 +25,7 @@
 
 .recomendation_link {
     text-decoration: none;
-    color: #dcdcff;
+    color: #3d3da7;
 }
 
 .login_btn {
@@ -43,7 +43,7 @@
 .banner_img {
     height: 100vh;
     width: 78vw;
-    filter: blur(2px);
+    filter: blur(3px);
     object-fit:cover;
     position: absolute;
     z-index: 1;

@@ -1,0 +1,9 @@
+.carrousel_image {
+    height: 50vh;
+    width: 70vw;
+    object-fit:cover
+}
+
+.carrousel-wrapper {
+    width: 70vw;
+}
