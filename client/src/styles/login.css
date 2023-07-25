@@ -13,10 +13,10 @@
     background-color: #2d2d3f;
     justify-content: center;
     align-items: center;
-    width: max-content;
+    width: 22vw;
+    height: 100vh;
     padding: 24px 12px;
     flex-direction: column;
-    margin-left: 1000px;
 }
 
 .recomendation {
@@ -46,5 +46,10 @@
     filter: blur(2px);
     object-fit:cover;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
+}
+
+.loggin_wrapper {
+    display: flex;
+    flex-flow: row-reverse;
 }
