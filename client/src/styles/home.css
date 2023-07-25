@@ -1,5 +1,7 @@
 
 .home_wrapper {
     background-color: #2d2d3f;
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
 }

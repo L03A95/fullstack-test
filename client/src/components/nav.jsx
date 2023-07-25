@@ -1,21 +1,23 @@
 import { Link } from 'react-router-dom'
 import '../styles/nav.css'
+import logo from '../images/logo.png'
+import Button from 'react-bootstrap/Button';
 
 export default function Nav () {
 
 
     return (
         <nav className="nav_wrapper">
-            <Link to={'/'}><h3>Logo</h3></Link>
+            <Link to={'/'}><img src={logo} className='logo'/></Link>
             <div>
-                <Link to={'/profile'}><p>Profile</p></Link>
-                <Link to={'/messages'}><p>Messages</p></Link>    
+                <Button variant="outline-primary"><Link to={'/profile'}>Profile</Link></Button>{' '}
+                <Button variant="outline-primary"><Link to={'/'}>Cart</Link></Button>{' '}
+                <Button variant="outline-primary"><Link to={'/library'}>Library</Link></Button>{' '}
             </div>
             <div>
-                <Link to={'/login'}><p>Login</p></Link>
-                <Link to={'/signin'}><p>Sign in</p></Link>
+                <Button variant="primary"><Link to={'/login'}>Login</Link></Button>{' '}
+                <Button variant="primary"><Link to={'/signin'}>Sign in</Link></Button>{' '}
             </div>
-            
         </nav>
     )
 }

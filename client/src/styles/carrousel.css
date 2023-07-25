@@ -1,9 +1,10 @@
 .carrousel_image {
     height: 50vh;
-    width: 70vw;
+    width: 90vw;
     object-fit:cover
 }
 
 .carrousel-wrapper {
-    width: 70vw;
+    width: 90vw;
+    margin-top: 120px;
 }

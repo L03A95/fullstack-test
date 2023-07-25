@@ -7,7 +7,11 @@ export default function Home () {
 
     return (
         <main className='home_wrapper'>
-            <HomeCarrousel></HomeCarrousel>
+            <div>
+                <HomeCarrousel></HomeCarrousel> 
+            </div>
+
+            
         </main>
     )
 }
