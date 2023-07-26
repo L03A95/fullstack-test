@@ -7,20 +7,26 @@ module.exports = (sequelize) => {
             autoIncrement: true,
             primaryKey: true
           },
-          username: {
+        name: {
             type: DataTypes.STRING,
             allowNull: false
-          },
-          password: {
-            type: DataTypes.STRING,
+        },
+        relese: {
+            type: DataTypes.DATE
+        },
+        description: {
+            type: DataTypes.TEXT,
             allowNull: false
-          },
-          gmail: {
-            type: DataTypes.STRING,
-            allowNull: false
-          },
-          currency: {
+        },
+        price: {
             type: DataTypes.INTEGER
-          }
+        },
+        portrait: {
+            type: DataTypes.STRING,
+            allowNull: false
+        },
+        images: {
+            type: DataTypes.STRING
+        }
     },{timestamps: false});
 };
