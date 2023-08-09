@@ -1,0 +1,42 @@
+###############BACKEND#################
+
+Users Routers:
+-Mejorar las rutas de Post para crear usuario
+-Crear ruta para iniciar sesion
+-Crear ruta para editar usuario
+-Crear usuario administrador
+
+
+VideoGames Routers:
+
+-Crear ruta Post para crear videojuegos
+-Crear ruta Get para obtener videojuegos:
+    *Debe contener filtrado por nombre, filtrado por categoria, filtrado por precio y filtrado por pagina
+
+Reviews:
+-Crear tabla para reseñas para los videojuegos, tabla con relacion de M/1
+
+
+
+###############FRONTEND#################
+
+Home:
+
+-Crear las cards de los productos.
+-Hacer paginado para los profuctos.
+
+Log in:
+
+-Implementar logica de logueo en la pagina
+
+Sign in:
+
+-Empezar la pagina
+-Implementar logica de registro
+-Implementar Auth0
+
+Pages:
+
+-Crear una pagina principal para productos
+-Hacer un diseño con la imagen, titulo, precio, descripcion, rating y comentarios
+

@@ -21,6 +21,9 @@ module.exports = (sequelize) => {
           },
           currency: {
             type: DataTypes.INTEGER
+          },
+          profilePic: {
+            type: DataTypes.STRING
           }
     },{timestamps: false});
 };
